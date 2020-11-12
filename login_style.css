@@ -16,6 +16,11 @@ a, div, input, button {
   font-family: century gothic;
 }
 
+h2 {
+  margin: 7px;
+  color: rgb(33, 64, 70);
+}
+
 form {
   box-shadow: 10px 10px 20px  #4b356d;
   background-color: rgb(146, 210, 221);
@@ -38,7 +43,7 @@ form {
 
 input, button {
   border: 1px solid #9063d8;
-  margin: 10px 30px;
+  margin: 15px 30px;
   padding: 8px 30px;
   font-size: 15px;
   border-radius: 6px;
@@ -56,8 +61,8 @@ button {
 }
 
 button:hover {
-background-color: rgb(178, 100, 241);
-border-color: rgb(178, 100, 241);
+  background-color: rgb(178, 100, 241);
+  border-color: rgb(178, 100, 241);
 }
 
 html {
