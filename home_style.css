@@ -3,7 +3,8 @@
 body{
 	margin: 0;
 	padding: 0;
-	background-image: url("/img/background.png");
+	background: linear-gradient(0deg, rgba(63, 6, 116, 0.425), rgba(0, 238, 255, 0.055)), url(https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolour-4116932_1280.png);
+  background-size: cover;
 }
 
 .navbar{
@@ -24,7 +25,7 @@ body{
 
 .menu{
 	text-transform: uppercase;
-	font-family: Montserrat;
+	font-family: century gothic;
 	font-weight: 700;
 	color: white;
 	margin-right: 20px;
@@ -36,7 +37,7 @@ a {
 
 .blogTitle{
 	margin-top: 150px;
-	font-family: Montserrat;
+	font-family: century gothic;
 	text-align: center;
 	font-weight: 700;
 	width: 82%;
@@ -55,13 +56,15 @@ a {
 }
 
 .card{
-	font-family: Montserrat;
+	font-family: century gothic;
 	height: 500px;
 	border: 2px black solid;
-	box-shadow: 2px 3px 3px 3px #888888;;
+	box-shadow: 10px 10px 20px  #4b356d;;
 	padding: 20px;
+	padding-bottom: 40px;
 	text-align: center;
 	background-color: white;
+	margin-bottom: 40px;
 }
 
 .cardImg{
@@ -69,16 +72,13 @@ a {
 }
 
 .btnPost{
-	margin: auto;
-	width: 60%;
-	display: block;
-	background-color: #426171;
-	border-radius: 30px;
-	height: 30px;
-	font-weight: 700;
-	font-size: 18px;
-	text-transform: uppercase;
-	color: white;
+	background: #9063d8;
+  color: lavender;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  margin: 10px 85px;
+  cursor: pointer;
 }
 
 .btnPost:hover{
@@ -91,7 +91,7 @@ a {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	padding-left: 20px;
-	font-family: Montserrat;
+	font-family: century gothic;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -123,14 +123,24 @@ a {
 	height: 200px;
 	background-color:rgb(146, 210, 221);
 	padding-top: 100px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 20px  #4b356d;
 }
 
 .btn{
 	background-color: transparent;
 	border: none;
-	font-family: Montserrat;
+	font-family: century gothic;
 	font-size: larger;
 	font-weight: 700;
 	width: 150px;
 	text-transform: uppercase;
+}
+
+a {
+  color: rgb(33, 64, 70);
+  text-decoration: none;
+}
+a:hover {
+  color: #9063d8;
 }

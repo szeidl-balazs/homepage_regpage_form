@@ -1,6 +1,11 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
 a {
-  margin: 620px;
-  color: rgb(146, 210, 221);
+  color: rgb(33, 64, 70);
   text-decoration: none;
 }
 a:hover {
@@ -12,17 +17,18 @@ a, div, input, button {
 }
 
 form {
-  position: fixed;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
   box-shadow: 10px 10px 20px  #4b356d;
   background-color: rgb(146, 210, 221);
   border-radius: 10px;
   padding: 30px;
-  margin: 70px 470px;
+}
+
+.formDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  text-align: center;
 }
 
 .login {
@@ -58,4 +64,54 @@ html {
   min-height: 100%;
   background: linear-gradient(0deg, rgba(63, 6, 116, 0.425), rgba(0, 238, 255, 0.055)), url(https://cdn.pixabay.com/photo/2019/04/10/11/56/watercolour-4116932_1280.png);
   background-size: cover;
+}
+
+
+.navbar{
+	position: fixed;
+  top: 0;
+	width: 100%;
+	background-color:rgb(146, 210, 221);
+	max-height: 125px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 300px;
+	display: block;
+}
+
+.menu{
+	text-transform: uppercase;
+	font-family: century gothic;
+	font-weight: 700;
+	color: white;
+	margin-right: 20px;
+}
+
+.footer{
+	background-color: rgb(146, 210, 221);
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-family: century gothic;
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+  margin-top: 145px;
+}
+
+.social{
+	align-items: center;
+}
+
+.socialImg{
+	width: 35px;
+}
+
+.copyright{
+	margin-right: 20px;
 }
