@@ -61,7 +61,7 @@ a {
 	border: 2px black solid;
 	box-shadow: 10px 10px 20px  #4b356d;;
 	padding: 20px;
-	padding-bottom: 40px;
+	padding-bottom: 100px;
 	text-align: center;
 	background-color: white;
 	margin-bottom: 40px;
@@ -78,7 +78,8 @@ a {
   padding: 5px 20px;
   border-radius: 30px;
   margin: 10px 85px;
-  cursor: pointer;
+	cursor: pointer;
+	border: none;
 }
 
 .btnPost:hover{
@@ -111,15 +112,13 @@ a {
 
 .sidebarMain{
 	float: right;
-	width: 200px;
+	width: 100px;
 }
 
 .sidebar{
 	line-height: 40px;
   position: fixed;
 	top: 200px;
-	padding-left: 50px;
-	padding-right: 80px;
 	height: 200px;
 	background-color:rgb(146, 210, 221);
 	padding-top: 100px;
@@ -131,9 +130,9 @@ a {
 	background-color: transparent;
 	border: none;
 	font-family: century gothic;
-	font-size: larger;
+	font-size: smaller;
 	font-weight: 700;
-	width: 150px;
+	width: 100px;
 	text-transform: uppercase;
 }
 
@@ -143,4 +142,9 @@ a {
 }
 a:hover {
   color: #9063d8;
+}
+
+.profImg{
+	width: 40px;
+	margin-bottom: 20px;
 }
