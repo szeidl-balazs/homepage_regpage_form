@@ -14,7 +14,7 @@ a {
   color: rgb(33, 64, 70);
   text-decoration: none;
 }
-a:hover {
+a.navbar-btn:hover {
   color: #9063d8;
 }
 
@@ -24,7 +24,7 @@ a, div, input, button {
 
 h1 {
   text-align: center;
-  }
+}
 
 section {
 position: relative;
@@ -41,7 +41,6 @@ h2 {
   align-items: center;
   text-align: center;
   z-index: 1;
-  
 }
 
 form {
