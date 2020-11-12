@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("/img/background.png");
+}
+
+.navbar{
+	position: fixed;
+  top: 0;
+	width: 100%;
+	background-color:rgb(146, 210, 221);
+	max-height: 125px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 300px;
+	display: block;
+}
+
+.menu{
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: 700;
+	color: white;
+	margin-right: 20px;
+}
+
+a {
+  color: rgb(15, 54, 61);
+}
+
+.blogTitle{
+	margin-top: 150px;
+	font-family: Montserrat;
+	text-align: center;
+	font-weight: 700;
+	width: 82%;
+}
+
+.content{
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	align-items: center;
+	justify-content: space-between;
+	display: grid;
+	grid-template-columns: 320px 320px 320px;
+	grid-gap: 20px;
+	width: 70%;
+}
+
+.card{
+	font-family: Montserrat;
+	height: 500px;
+	border: 2px black solid;
+	box-shadow: 2px 3px 3px 3px #888888;;
+	padding: 20px;
+	text-align: center;
+	background-color: white;
+}
+
+.cardImg{
+	width: 250px;
+}
+
+.btnPost{
+	margin: auto;
+	width: 60%;
+	display: block;
+	background-color: #426171;
+	border-radius: 30px;
+	height: 30px;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.btnPost:hover{
+	background-color: rgb(146, 210, 221);
+}
+
+.footer{
+	background-color: rgb(146, 210, 221);
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	font-family: Montserrat;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.social{
+	align-items: center;
+}
+
+.socialImg{
+	width: 35px;
+}
+
+.copyright{
+	margin-right: 20px;
+}
+
+.sidebarMain{
+	float: right;
+	width: 200px;
+}
+
+.sidebar{
+	line-height: 40px;
+  position: fixed;
+	top: 200px;
+	padding-left: 50px;
+	padding-right: 80px;
+	height: 200px;
+	background-color:rgb(146, 210, 221);
+	padding-top: 100px;
+}
+
+.btn{
+	background-color: transparent;
+	border: none;
+	font-family: Montserrat;
+	font-size: larger;
+	font-weight: 700;
+	width: 150px;
+	text-transform: uppercase;
+}
